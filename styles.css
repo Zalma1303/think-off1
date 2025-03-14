@@ -274,4 +274,9 @@ footer {
 
 .card-container .card-image:hover {
     transform: translateY(-10px);   
+} 
+.motivation-section .container {
+    display: flex;
+    flex-direction: column; /* гарантированно ставит элементы вертикально */
+    align-items: center;    /* центрирует по горизонтали */
 }
