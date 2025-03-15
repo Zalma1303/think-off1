@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация | Think-Off</title>
+    <title>Вход | Think-Off</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .registration-section {
-            background: url('images/registration-bg.jpg') center/cover fixed no-repeat;
+        .login-section {
+            background: url('images/login-bg.jpg') center/cover fixed no-repeat;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .registration-container {
+        .login-container {
             background-color: rgba(0, 0, 0, 0.8);
             padding: 40px;
             border-radius: 12px;
@@ -24,12 +24,12 @@
             color: white;
         }
 
-        .registration-container h2 {
+        .login-container h2 {
             text-align: center;
             margin-bottom: 20px;
         }
 
-        .registration-container input {
+        .login-container input {
             width: 100%;
             padding: 15px;
             margin-bottom: 15px;
@@ -39,7 +39,7 @@
             color: #fff;
         }
 
-        .registration-container button {
+        .login-container button {
             width: 100%;
             padding: 15px;
             background-color: #3A5199;
@@ -51,40 +51,38 @@
             font-size: 16px;
         }
 
-        .registration-container button:hover {
+        .login-container button:hover {
             background-color: #2F2E33;
         }
 
-        .login-link {
+        .register-link {
             text-align: center;
             margin-top: 15px;
             font-size: 14px;
         }
 
-        .login-link a {
+        .register-link a {
             color: #08D9D6;
             text-decoration: none;
         }
 
-        .login-link a:hover {
+        .register-link a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<div class="registration-section">
-    <div class="registration-container">
-        <h2>Регистрация в Think-Off</h2>
+<div class="login-section">
+    <div class="login-container">
+        <h2>Вход в Think-Off</h2>
         <form action="#">
-            <input type="text" placeholder="ФИО" required>
             <input type="email" placeholder="Ваш Email" required>
-            <input type="tel" placeholder="Номер телефона" required>
             <input type="password" placeholder="Пароль" required>
-            <button type="submit">Зарегистрироваться</button>
+            <button type="submit">Войти</button>
         </form>
 
-        <p class="login-link">Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+        <p class="register-link">Нет аккаунта? <a href="registration.html">Зарегистрируйтесь</a></p>
     </div>
 
 </div>
